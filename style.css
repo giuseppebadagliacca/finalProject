@@ -55,6 +55,9 @@ main {
       margin: 15px;
   }
 
+  .italic{
+    font-style: italic !important;
+  }
   #busPic{
       width: 500px;
       border-radius: 100%;
@@ -63,6 +66,10 @@ main {
   .card{
       background: rgba(204, 204, 204, 0.275);
       box-shadow: 0.213rem 0.213rem rgba(255, 255, 255, 0.543);
+  }
+
+  .card:hover{
+    background: rgba(204, 204, 204, 0.354);
   }
 
   #myBtn{
