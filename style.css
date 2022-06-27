@@ -94,3 +94,18 @@ main {
     border-radius: 10px;
     box-shadow: 0.213rem 0.213rem rgba(255, 255, 255, 0.543);
   }
+
+  /* products section  */
+  #products{
+    /* background: #ccc;  */
+  }
+
+  #list-items div{
+    margin: 10px 5px;
+    /* background: white; */
+  }
+  #list-items div img{
+    background: white;
+    /* width: 100px; */
+  }
+
