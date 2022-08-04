@@ -23,7 +23,7 @@ main {
 
   .jumbotron {
     height: 100vh;
-    background-image: url(/pics/business2.jpeg);
+    background-image: url(./pics/business2.jpeg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -46,13 +46,19 @@ main {
       color: aliceblue;
       height: 100vh;
   }
+
+  .card {
+    margin: 0px 15px;
+    padding: 15px;
+  }
+
   #aboutUs p{
-    max-width: 50rem;
+    max-width: 100rem;
     min-width: 12.5rem;
   }
 
   #aboutUs div{
-      margin: 15px;
+      margin: 5px;
   }
 
   .italic{
@@ -66,6 +72,7 @@ main {
   .card{
       background: rgba(204, 204, 204, 0.275);
       box-shadow: 0.213rem 0.213rem rgba(255, 255, 255, 0.543);
+      width: 100%;
   }
 
   .card:hover{
@@ -91,7 +98,7 @@ main {
     color: #ccc !important;
     padding: .75rem 1rem;
     border: 0.063rem solid rgba(255, 255, 255, 0.543);
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0.213rem 0.213rem rgba(255, 255, 255, 0.543);
   }
 
@@ -109,3 +116,22 @@ main {
     /* width: 100px; */
   }
 
+footer {
+  background-color: dimgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
+
+ footer ul li {
+  margin: 0px 30px;
+  list-style: none;
+ }
