@@ -73,6 +73,7 @@ main {
       background: rgba(204, 204, 204, 0.275);
       box-shadow: 0.213rem 0.213rem rgba(255, 255, 255, 0.543);
       width: 100%;
+      margin: 0px 35px !important;
   }
 
   .card:hover{
@@ -100,6 +101,7 @@ main {
     border: 0.063rem solid rgba(255, 255, 255, 0.543);
     border-radius: 5px;
     box-shadow: 0.213rem 0.213rem rgba(255, 255, 255, 0.543);
+    width: 800px;
   }
 
   /* products section  */
